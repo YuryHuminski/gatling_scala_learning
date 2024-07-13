@@ -6,7 +6,7 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import scala.util.Random
 
-class VideoGameFullTest extends Simulation {
+class VideoGameFullTestMY extends Simulation {
 
   val httpProtocol = http.baseUrl("https://videogamedb.uk/api")
     .acceptHeader("application/json")
