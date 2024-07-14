@@ -16,9 +16,9 @@ class VideoGameFullTest extends Simulation {
 
   /*** Variables ***/
   // runtime variables
-  def userCount: Int = getProperty("USERS", "3").toInt
+  def userCount: Int = getProperty("USERS", "2").toInt
   def rampDuration: Int = getProperty("RAMP_DURATION", "10").toInt
-  def testDuration: Int = getProperty("DURATION", "60").toInt
+  def testDuration: Int = getProperty("DURATION", "20").toInt
 
   // other variables
   var idNumbers = (20 to 1000).iterator
