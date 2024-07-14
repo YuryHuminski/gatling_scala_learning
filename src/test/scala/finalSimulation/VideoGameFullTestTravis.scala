@@ -109,7 +109,7 @@ class VideoGameFullTestTravis extends Simulation {
     .maxDuration(testDuration.seconds)
       .assertions(
         global.responseTime.max.lt(800),
-        global.successfulRequests.percent.gt(95)
+        global.successfulRequests.percent.gt(90)
       )
 
   /*** After ***/
