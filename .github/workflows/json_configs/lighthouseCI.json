@@ -9,8 +9,8 @@
     },
     "assert": {
       "assertions": {
-        "largest-contentful-paint": ["warn", {"maxNumericValue": 2500, "aggregationMethod": "optimistic"}],
-        "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.25, "aggregationMethod": "optimistic"}]
+        "largest-contentful-paint": ["error", {"maxNumericValue": 250, "aggregationMethod": "optimistic"}],
+        "cumulative-layout-shift": ["error", {"maxNumericValue": 0.25, "aggregationMethod": "optimistic"}]
       }
     }
   }
