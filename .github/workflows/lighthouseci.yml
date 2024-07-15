@@ -20,8 +20,8 @@ jobs:
       - name: Detect changes
         id: detect
         run: |
-          git fetch origin master 
-          DIFF=$(git diff --name-only ${{ github.sha }} origin/master)
+          git fetch origin main 
+          DIFF=$(git diff --name-only ${{ github.sha }} origin/main)
           echo "$DIFF"
           if echo "$DIFF" | grep '^ss_scripts/ICI/'
           then
